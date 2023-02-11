@@ -12,3 +12,4 @@ GitHub landing page:
 | 2   | [Order Summary card component](https://kuushal.github.io/frontend-mentor/order-summary-component)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/order-summary-component) |
 | 3   | [Product preview card component](https://kuushal.github.io/frontend-mentor/product-preview-card-component-main)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/product-preview-card-component-main) |
 | 4   | [QR code component ](https://kuushal.github.io/frontend-mentor/qr-code-components/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/qr-code-components) |
+| 5   | [Stats preview card component ](https://kuushal.github.io/frontend-mentor/stats-preview-card-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/stats-preview-card-component) |
