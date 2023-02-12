@@ -14,3 +14,4 @@ GitHub landing page:
 | 4   | [QR code component ](https://kuushal.github.io/frontend-mentor/qr-code-components/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/qr-code-components) |
 | 5   | [Stats preview card component ](https://kuushal.github.io/frontend-mentor/stats-preview-card-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/stats-preview-card-component) |
 | 6   | [3-column preview card component ](https://kuushal.github.io/frontend-mentor/3-column-preview-card-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/3-column-preview-card-component) |
+| 7   | [Profile card component ](https://kuushal.github.io/frontend-mentor/profile-card-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/profile-card-component) |
