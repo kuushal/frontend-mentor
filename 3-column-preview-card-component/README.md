@@ -39,6 +39,7 @@ Users should be able to:
 
 ### Useful resources
 
+- CSS Outline:[w3school](https://www.w3schools.com/css/css_outline.asp)
 
 ## Author
 
