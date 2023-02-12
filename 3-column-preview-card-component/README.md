@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/kuushal/frontend-mentor/tree/main/3column-preview-card-component)
-- Live Site URL: [Live URL](https://kuushal.github.io/frontend-mentor/3column-preview-card-component/)
+- Solution URL: [Source code](https://github.com/kuushal/frontend-mentor/tree/main/3-column-preview-card-component)
+- Live Site URL: [Live URL](https://kuushal.github.io/frontend-mentor/3-column-preview-card-component/)
 
 ### Built with
 
