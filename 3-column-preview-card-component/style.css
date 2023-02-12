@@ -1,0 +1,168 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  :root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white-para: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+
+    --font-primary:LexendDeca,sans-serif;
+    --font-secondary:'Big Shoulders Display',sans-serif;
+
+    --fw-regular:400;
+    --fw-bold:700;
+
+  }
+
+
+  body{
+    font-family: var(--font-primary);
+    font-size: 15px;
+
+    background-color:  hsl(0, 0%, 89%);
+
+    display: flex;    
+  }
+
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+
+    color: var(--very-light-gray-background-headings-buttons);
+
+    margin: 2rem 1rem;
+
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* sedan */
+
+  .cards-container__sedan{
+    background-color: var(--bright-orange);
+  }
+
+  .sedan__icon{
+    background: url(images/icon-sedans.svg);
+  }
+
+  .btn__sedan{
+    color: var(--bright-orange);
+  }
+  /* suv */
+  .cards-container__suv{
+    background-color: var(--dark-cyan);
+  }
+
+  .suv__icon{
+    background: url(images/icon-suvs.svg);
+  }
+
+  .btn__suv{
+    color: var(--dark-cyan);
+  }
+
+  /* luxury */
+  .cards-container__luxury{
+    background-color: var(--very-dark-cyan);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 2rem;
+  }
+
+  .luxury__icon{
+    background: url(images/icon-luxury.svg);
+  }
+
+  .btn__luxury{
+    color: var(--very-dark-cyan);
+  }
+
+  /* common */
+  .card{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* padding-right: 2rem; */
+
+  }
+  .sedan__title,.suv__title,.luxury__title{
+    font-family: var(--font-secondary);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .sedan__description,.suv__description,.luxury__description{
+    color: var(--transparent-white-para);
+    font-size: 14px;
+    margin-bottom: 1rem;
+    padding-right: 5rem;
+  }
+
+  .icon{
+    margin-bottom: 1rem;
+    width: 64px;
+    height: 40px;
+  }
+
+  .btn{
+    border: none;
+    padding:0.5rem 1.75rem;
+    border-radius: 100px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
