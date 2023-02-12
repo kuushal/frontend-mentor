@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/kuushal/frontend-mentor/tree/main/3-column-preview-card-component)
-- Live Site URL: [Live URL](https://kuushal.github.io/frontend-mentor/3-column-preview-card-component/)
+- Solution URL: [Source code](https://github.com/kuushal/frontend-mentor/tree/main/profile-card-component)
+- Live Site URL: [Live URL](https://kuushal.github.io/frontend-mentor/profile-card-component/)
 
 ### Built with
 
@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Useful resources
 
-- CSS Outline:[w3school](https://www.w3schools.com/css/css_outline.asp)
+- Multiple Backgrounds:[w3school](https://www.w3schools.com/Css/css3_backgrounds.asp)
 
 ## Author
 
