@@ -168,13 +168,17 @@ body {
 
     display: grid;
 
-    grid-template-rows: repeat(autofit, minmax(300px, 1fr));
+    justify-content: center;
+    align-content: center;
+
+    grid-template-columns: minmax(300px, 700px);
 }
 
 /* community container */
 .community {
     background-color: white;
     display: grid;
+
     row-gap: 2rem;
     padding: 2rem 1rem;
     border-top-left-radius: 8px;
@@ -252,4 +256,31 @@ button {
 
 .about-us__services {
     color: #82e1e0;
+}
+
+/* media queries */
+@media only screen and (min-width: 700px) {
+
+    .container {
+        grid-template-columns: 25% 25%;
+        height: 100vh;
+
+        justify-content: center;
+        align-content: center;
+
+        padding: 0;
+    }
+
+
+    .community {
+        grid-column: 1/-1;
+    }
+
+    .about-us {
+        border-bottom-left-radius: 0px;
+    }
+
+    .subscription {
+        border-bottom-left-radius: 8px;
+    }
 }
