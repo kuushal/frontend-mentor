@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+
+    --background: rgba(250, 250, 250, 255);
+
+    --font-size: 15px;
+
+    --font-family: Poppins, sans-serif;
+
+    --fw-light: 200;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--fw-regular);
+}
+
+main {
+    background-color: var(--very-light-gray);
+}
+
+.container {
+    padding: 4rem 1.5rem;
+    display: grid;
+    justify-items: center;
+    row-gap: 1.5rem;
+}
+
+/* Header */
+.header {
+    display: grid;
+    row-gap: 1rem;
+    max-width: 300px;
+}
+
+.heading {
+    color: var(--grayish-blue);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.slogan {
+    color: var(--very-dark-blue);
+    font-weight: var(--fw-bold);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.description {
+    color: var(--grayish-blue);
+}
+
+/* card */
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 1.5rem;
+    display: grid;
+    row-gap: 1.5rem;
+    padding-bottom: 2rem;
+    max-width: 270px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*  */
+
+.supervisor {
+    border-top: 5px solid var(--cyan);
+}
+
+.team-builder {
+    border-top: 5px solid var(--red);
+}
+
+.karma {
+    border-top: 5px solid var(--orange);
+}
+
+.calculator {
+    border-top: 5px solid var(--blue);
+}
+
+.card__logo {
+    justify-self: end;
+}
