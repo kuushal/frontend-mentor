@@ -157,6 +157,11 @@ body {
     background: url('./images/bg-mobile.svg') no-repeat;
     padding: 2rem;
     padding-bottom: 3.4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -165,6 +170,7 @@ body {
 }
 
 .main-img {
+    display: block;
     height: 200px;
     width: 300px;
     background-size: cover;
@@ -201,9 +207,18 @@ button {
     margin-left: auto;
 }
 
+button:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+}
+
 /* footer */
 footer {
     text-align: center;
+}
+
+footer>a:hover {
+    background-color: var(--soft-magenta);
 }
 
 .facebook {
@@ -226,4 +241,48 @@ footer a {
     border-radius: 50%;
     border: 1px solid white;
     text-align: center;
+}
+
+@media screen and (min-width:900px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 90vh 10vh;
+
+        background: url('./images/bg-desktop.svg');
+        background-repeat: no-repeat;
+
+        background-color: var(--violet);
+    }
+
+    .header {
+        background: none;
+        display: grid;
+    }
+
+    main {
+        align-self: center;
+        text-align: left;
+        line-height: 1.5;
+        margin-right: 5rem;
+    }
+
+    .main-img {
+        display: block;
+        height: 520px;
+        width: 750px;
+        background-size: cover;
+    }
+
+    main>h2 {
+        font-size: 2.5rem;
+
+    }
+
+    footer {
+        margin-right: 5rem;
+        justify-self: end;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
 }
