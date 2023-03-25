@@ -1,5 +1,9 @@
 const ratingValues = document.querySelectorAll('.rating__value');
 const submitButton = document.querySelector('.rating__submit');
+const ratingContainer = document.querySelector('.rating');
+const submittedContainer = document.querySelector('.submitted');
+const submittedRating = document.querySelector('.submitted__rating--value');
+
 let activeList = ''
 
 
@@ -23,5 +27,11 @@ function submitRating(e) {
     let rating = 0;
     if (activeList !== '') {
         rating = activeList.innerHTML;
+
+        ratingContainer.style.display = 'none';
+        submittedRating.textContent = rating;
+        submittedContainer.style.display = 'flex';
     }
+
+
 }

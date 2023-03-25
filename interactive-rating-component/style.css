@@ -189,12 +189,14 @@ body {
     background-color: var(--rating-value-background);
 }
 
-.rating__heading {
+.rating__heading,
+.submitted__heading {
     font-size: 1.5rem;
     font-weight: var(--fw-bold);
 }
 
-.rating__description {
+.rating__description,
+.submitted__description {
     color: var(--description);
     line-height: 1.3;
 }
@@ -241,4 +243,38 @@ body {
 .rating__submit:hover {
     background-color: var(--white);
     color: var(--orange);
+}
+
+/* submitted container */
+
+.submitted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--container-background);
+    margin: 2rem;
+    padding: 2rem;
+
+    border-radius: 12px;
+
+    max-width: 360px;
+
+    display: none;
+}
+
+.submitted__img {
+    height: 130px;
+    width: 190px;
+}
+
+.submitted__rating {
+    background-color: var(--rating-value-background);
+    padding: 0.3rem 0.5rem;
+    border-radius: 30px;
+    color: var(--orange);
+}
+
+.submitted__description {
+    text-align: center;
 }
