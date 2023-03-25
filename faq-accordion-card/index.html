@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ accordion card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="container__img">
+                <picture>
+                    <source media="(max-width: 799px)" srcset="/images/illustration-woman-online-mobile.svg" />
+                    <source media="(min-width: 800px)" srcset="/images/illustration-woman-online-desktop.svg" />
+                    <img src="./images/illustration-woman-online-mobile.svg"
+                        alt="Woman standing in front of computer" />
+                </picture>
+            </div>
+            <div class="container__faq">
+                <h1 class="faq__heading">FAQ</h1>
+
+                <!-- question one -->
+                <p class="faq__question">
+                    <a href="javascript:toggleElement('q1')">How many team members can I invite ?</a>
+                    <span></span>
+                </p>
+                <div class="faq__answer" id="q1" style="display:none">
+                    You can invite upto 25 team members.
+                </div>
+
+                <!-- question two -->
+                <p class="faq__question">
+                    <a href="javascript:toggleElement('q2')">What is the maximum file upload size?</a>
+                    <span></span>
+                </p>
+                <div class="faq__answer" id="q2" style="display:none">
+                    No more than 2GB. All files in your account must fit your allocated storage space.
+                </div>
+
+                <!-- question three -->
+                <p class="faq__question">
+                    <a href="javascript:toggleElement('q3')">How do I reset my password?</a>
+                    <span></span>
+                </p>
+                <div class="faq__answer" id="q3" style="display:none">
+                    You can reset your password by clicking on the Forget your Password button.
+                </div>
+
+                <!-- question four -->
+                <p class="faq__question">
+                    <a href="javascript:toggleElement('q4')">Can I cancel my subscription?</a>
+                    <span></span>
+                </p>
+                <div class="faq__answer" id="q4" style="display:none">
+                    Yes, you cancel your subscription within the 10 days from the day which you subscribed.
+                </div>
+
+                <!-- question five -->
+                <p class="faq__question">
+                    <a href="javascript:toggleElement('q5')">Do you provide additional support?</a>
+                    <span></span>
+                </p>
+                <div class="faq__answer" id="q5" style="display:none">
+                    Yes, you can always reach out to us on our official mail id and resolve any query of yours.
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
