@@ -145,6 +145,7 @@ table {
     --white: #F7FAFF;
     --description: #8A919B;
     --rating-value-color: #7D8793;
+    --rating-value-active: #7E8798;
     --font-family: Montserrat, sans-serif;
 
     --fw-regular: 400;
@@ -220,6 +221,11 @@ body {
     cursor: pointer;
 }
 
+.active {
+    background-color: var(--rating-value-active);
+    color: var(--white);
+}
+
 .rating__submit {
     border: none;
     background-color: var(--orange);
@@ -229,6 +235,7 @@ body {
     font-weight: var(--fw-bold);
     letter-spacing: 2px;
     cursor: pointer;
+    margin-top: 1rem;
 }
 
 .rating__submit:hover {
