@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* CSS RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Reset end */
+
+
+
+:root {
+    --very-dark-desaturated-blue-text: hsl(238, 29%, 16%);
+    --soft-red-text: hsl(14, 88%, 65%);
+
+    --soft-violet-background: hsl(273, 75%, 66%);
+    --soft-blue-background: hsl(240, 73%, 65%);
+
+    --very-dark-grayish-blue-text: hsl(237, 12%, 33%);
+    --dark-grayish-blue-text: hsl(240, 6%, 50%);
+
+    --light-grayish-blue-divider: hsl(240, 5%, 91%);
+
+    --font-size: 16px;
+
+    --font-family: 'Kumbh Sans', sans-serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+body {
+    font-family: var(--font-family);
+    font-weight: var(--fw-regular);
+
+    background-color: var(--soft-violet-background);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 20px;
+
+    width: 300px;
+
+    position: relative
+}
+
+/* image container */
+/* .container__img {
+    position: relative
+} */
+
+picture>img {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    position: absolute;
+    top: -110px;
+    transform: rotate(-1deg);
+}
+
+
+/* faq container */
+.container__faq {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.faq__heading {
+    font-size: 1.7rem;
+    font-weight: var(--fw-bold);
+    color: var(--very-dark-desaturated-blue-text);
+    align-self: center;
+
+    padding-bottom: 1.4rem;
+}
+
+.faq__question {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+.faq__answer {
+    display: none;
+    max-width: 230px;
+    padding-top: 0.5rem;
+    color: var(--dark-grayish-blue-text);
+
+}
+
+.faq__question--arrow {
+    display: inline-block;
+    height: 9px;
+    width: 9px;
+    background: url('./images/icon-arrow-down.svg');
+    background-repeat: no-repeat;
+}
+
+.faq__question--arrow:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--very-dark-grayish-blue-text);
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--soft-red-text);
+}
+
+.separator {
+    margin-top: 0.6rem;
+    border-bottom: 1px solid var(--light-grayish-blue-divider);
+}
