@@ -5,7 +5,7 @@ This repository contains [Frontend Mentor](https://www.frontendmentor.io/challen
 GitHub landing page: 
 
 ## Projects
-
+  ### HTML & CSS Projects 
 | No. | Project name and link                                                                             | Repo |
 | --- | ------------------------------------------------------------------------------------------------- | ---- |
 | 1   | [NFT preview card component](https://kuushal.github.io/frontend-mentor/nft-preview-card-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/nft-preview-card-component) |
@@ -19,3 +19,10 @@ GitHub landing page:
 | 9   | [Single price grid component ](https://kuushal.github.io/frontend-mentor/single-price-grid-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/single-price-grid-component/) |
 | 10   | [Four card feature section ](https://kuushal.github.io/frontend-mentor/four-card-feature-section/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/four-card-feature-section/) |
 | 11   | [Huddle landing page with a single introductory section ](https://kuushal.github.io/frontend-mentor/huddle-landing-page-with-single-introductory-section/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/huddle-landing-page-with-single-introductory-section/) |
+
+### HTML, CSS, JS Projects
+| No. | Project name and link                                                                             | Repo |
+| --- | ------------------------------------------------------------------------------------------------- | ---- |
+| 1   | [Interactive rating component](https://kuushal.github.io/frontend-mentor/interactive-rating-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/interactive-rating-component/) |
+| 2   | [FAQ accordion card](https://kuushal.github.io/frontend-mentor/faq-accordion-card/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/faq-accordion-card/) |
+| 3   | [Article preview component](https://kuushal.github.io/frontend-mentor/article-preview-component/)         | [Link to GitHub repo](https://github.com/kuushal/frontend-mentor/tree/main/article-preview-component/) |
