@@ -42,6 +42,7 @@ Users should be able to:
 
 ### Useful resources
 
+- https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding
 
 ## Author
 
