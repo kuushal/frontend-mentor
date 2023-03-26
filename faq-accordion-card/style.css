@@ -177,19 +177,10 @@ body {
 
     width: 300px;
 
-    position: relative
+    position: relative;
 }
 
-/* image container */
-/* .container__img {
-    position: relative
-} */
-
 picture>img {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-
     position: absolute;
     top: -110px;
     transform: rotate(-1deg);
@@ -254,4 +245,25 @@ a:hover {
 .separator {
     margin-top: 0.6rem;
     border-bottom: 1px solid var(--light-grayish-blue-divider);
+}
+
+/* media queries */
+@media screen and (min-width: 1000px) {
+    .container {
+        display: flex;
+        width: 900px;
+    }
+
+    picture>img {
+        position: relative;
+        top: -30px;
+        left: -80px;
+        transform: rotate(-1deg);
+    }
+
+    .container__faq {
+        align-self: center;
+        margin-top: 0;
+        width: 400px;
+    }
 }
