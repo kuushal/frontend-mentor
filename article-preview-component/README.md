@@ -42,7 +42,8 @@ Users should be able to:
 
 ### Useful resources
 
-- https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding
+- [How to give background color to padding of an element](https://stackoverflow.com/questions/14628601/can-i-add-background-color-only-for-padding)
+- [How to create a downwards facing arrow using html and css](https://dev.to/flippedcoding/how-to-put-arrows-at-the-bottom-of-a-div-4hnn)
 
 ## Author
 

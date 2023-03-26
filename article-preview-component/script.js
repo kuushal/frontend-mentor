@@ -6,11 +6,24 @@ shareButtonPrimary.addEventListener('click', showSocialsToShareArticle);
 shareButtonSecondary.addEventListener('click', hideSocials);
 
 function showSocialsToShareArticle(e) {
-    document.getElementsByClassName('article__owner')[0].style.display = 'none';
-    document.getElementsByClassName('article__share')[0].style.display = 'flex';
+    if (window.innerWidth < 960) {
+        document.getElementsByClassName('article__owner')[0].style.display = 'none';
+        document.getElementsByClassName('article__share')[0].style.display = 'flex';
+    } else {
+        if (document.getElementsByClassName('article__share')[0].style.display === 'none') {
+            document.getElementsByClassName('article__share')[0].style.display = 'flex';
+            document.getElementsByClassName('bottom-arrow')[0].style.display = 'block';
+        } else {
+            document.getElementsByClassName('article__share')[0].style.display = 'none';
+            document.getElementsByClassName('bottom-arrow')[0].style.display = 'none';
+        }
+
+    }
 }
 
 function hideSocials() {
-    document.getElementsByClassName('article__share')[0].style.display = 'none';
-    document.getElementsByClassName('article__owner')[0].style.display = 'flex';
+    if (window.innerWidth < 960) {
+        document.getElementsByClassName('article__share')[0].style.display = 'none';
+        document.getElementsByClassName('article__owner')[0].style.display = 'flex';
+    }
 }
